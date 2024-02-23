@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('titulo', 'Listado de cargos')
+@section('titulo', 'Listado de cargosssssss')
 
 @section('content')
 <div class="col-md-12 text-right">

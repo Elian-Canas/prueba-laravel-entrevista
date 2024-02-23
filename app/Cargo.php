@@ -14,4 +14,9 @@ class Cargo extends Model
     protected $fillable = [
         'nombre',
     ];
+
+    public function empleado()
+    {
+        return $this->hasMany('App\Empleado');
+    }
 }

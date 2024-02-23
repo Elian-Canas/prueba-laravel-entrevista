@@ -18,7 +18,7 @@
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="{{ route('cargos.index') }}">Cargos</a></li>
-                <li><a href="#">Empleados</a></li>
+                <li><a href=" {{ route('empleados.index') }}">Empleados</a></li>
             </ul>
         </div>
     </nav>
@@ -27,7 +27,7 @@
             <h3 class="text-center"> @yield('titulo')</h3>
         </div>
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-8">
                 @yield('content')
             </div>
         </div>
